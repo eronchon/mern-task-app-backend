@@ -1,4 +1,4 @@
-**This is not our own code or idea.**
+**This is not our own code or idea.** <br />
 We followed ZinoTrust Academy's YouTube beginner's tutorial for MERN stack development:
 [Link](https://youtube.com/playlist?list=PLQfqQHJBFM1_v2UaZ0nFshI06f_waErND&si=-6E2klgt-tiVzPI1)
 
