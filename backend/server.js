@@ -15,7 +15,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "http://hawkhacks2024-mern-task-app.onrender.com",
+      "https://hawkhacks2024-mern-task-app.onrender.com",
     ],
   })
 ); // necessary for the frontend to share resources with the backend
