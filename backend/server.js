@@ -11,7 +11,14 @@ const app = express();
 // Middleware (must call the next function to give the next func to run)
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(cors()); // necessary for the frontend to share resources with the backend
+app.use(
+  cors({
+    origin: [
+      "http://localhost:3000",
+      "http://hawkhacks2024-mern-task-app.onrender.com",
+    ],
+  })
+); // necessary for the frontend to share resources with the backend
 app.use("/api/tasks/", taskRoutes);
 
 // Routes
